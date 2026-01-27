@@ -1,6 +1,6 @@
 import sys
 import argparse
-sys.path.append('/users/ghigueras/AI/PythonProject/OandaBroker/src')
+
 import logging
 
 from logging.handlers import TimedRotatingFileHandler
@@ -164,3 +164,4 @@ if __name__ == '__main__':
     #     scalping.indicators(df)
     # except Exception as err:
     #     log.error(err)
+
